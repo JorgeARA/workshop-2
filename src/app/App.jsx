@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <main>
         <Test />
-        <h1>Hola Mundo</h1>
+        <h1>Hola Mundo G</h1>
         <section>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorum
