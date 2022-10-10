@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import Counter from "./counter/Counter.jsx";
+import Counter from "./Header.jsx";
 import Form from "./form/Form.jsx";
-import Test from "./Test.jsx";
 
 class App extends Component {
   componentDidMount() {
@@ -11,7 +10,6 @@ class App extends Component {
   render() {
     return (
       <main>
-        <Test />
         <h1>Hola Mundo</h1>
         <section>
           <p>
