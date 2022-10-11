@@ -1,30 +1,19 @@
 import React, { Component } from "react";
-import Counter from "./counter/Counter.jsx";
-import Form from "./form/Form.jsx";
-import Test from "./Test.jsx";
+import Header from "./header/Header.jsx";
+import Footer from "./footer/Footer.jsx";
+import Main from "./main/Main.jsx";
+import './styles/style.scss'
+
 
 class App extends Component {
-  componentDidMount() {
-    console.log("Estoy iniciando");
-  }
-
+  
   render() {
     return (
-      <main>
-        <Test />
-        <h1>Hola Mundo G</h1>
-        <section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorum
-            inventore cum a voluptate. Dolorem tenetur, natus dolorum hic
-            ratione adipisci cumque veritatis molestias nulla voluptatibus,
-            quaerat placeat architecto quae.
-          </p>
-          <a href="">Hola</a>
-        </section>
-        <Form />
-        <Counter />
-      </main>
+      <>
+      <Header />
+      <Main />
+      <Footer />
+      </>
     );
   }
 }
